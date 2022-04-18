@@ -1,0 +1,155 @@
+* {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 32px
+}
+.header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+
+}
+.header .logo {
+	height: 60px;
+}
+.header .content {
+	display: flex;
+}
+.header .content li  {
+	list-style: none;
+  	padding: 0 12px;
+}
+.header .content li a {
+	color: #000;
+	text-decoration: none;
+}
+.main {
+	width: 1120px;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+}
+.main .nav {
+	margin-top: 120px;
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+.nav .nav-text h1{
+ margin-bottom: 16px
+}
+.nav > img {
+	width: 360px;
+    margin-left: 86px;
+    height: 200px;
+}
+.work {
+	margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work .box img {
+	width: 360px;
+	height: 200px;
+	border-radius: 8px;
+}
+.box .box-sub {
+	color: #008294;
+	margin-top: 4px;
+}
+.btn {
+	margin-top: 50px;
+}
+.btn-up {
+	display: flex;
+	justify-content: space-between;
+}
+.button {
+	background-color: #008294;
+	margin-left: 8px;
+	margin-bottom: 8px;
+	padding: 16px;
+	border-radius: 24px;
+    border: 0;
+    color: #fff;
+}
+
+.btn-down {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-down h2 {
+	margin-bottom: 12px;
+}
+.btn-down .down-left {
+ flex-grow: 1;
+}
+.btn-down .down-left input {
+	padding: 8px 54px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin-bottom: 12px
+} 
+.btn-down .down-right {
+	flex-grow: 1;
+	margin-left: 15px;
+}
+.btn-down .down-left .search {
+	padding: 12px 226px;
+    color: #fff;
+    background-color: #e7403e;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.join {
+	display: flex;
+	flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+}
+.join .join-header h3{
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+.join .content .box img {
+	width: 360px;
+	height: 200px;
+	margin-top: 50px;
+}
+.join .content {
+	display: flex;
+	justify-content: space-between;
+}
+.join .content .box h3 {
+	color: #008294;
+	margin-top: 4px;
+	margin-bottom: 8px
+}
+.join .btn button{
+	width: 96px;
+	padding: 8px;
+	background-color: #008294;
+	border: 0;
+	border-radius: 6px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+

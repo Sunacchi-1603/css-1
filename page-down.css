@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.events {
+	margin-top: 80px;
+}
+.events .content {
+	display: flex;
+	justify-content: space-between;
+	margin: 16px 0;
+}
+.box-event .img {
+	width: 265px;
+	height: 150px;
+	background-image: url('https://picsum.photos/640/360');
+	background-size: cover;
+	background-position: center;
+	border-radius: 8px;
+}
+.box-event .img .img-overlay {
+	height: 100%;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #333;
+	opacity: 0;
+	transition: all 0.3s;
+}
+.box-event .img:hover .img-overlay {
+	opacity: 1;
+}
+.box-event .img .img-overlay .zmdi {
+	transform: scale(0.5);
+	transition: all 0.3s;
+}
+.box-event .img:hover .img-overlay .zmdi {
+	transform: scale(1);
+}
